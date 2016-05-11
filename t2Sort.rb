@@ -3,9 +3,6 @@ class CountSort
   def self.sorter(someArray)
     arr = {}
 
-    arr[0]=someArray[0]
-    arr[0]=someArray[5]
-    puts arr
 
     someArray.each do |ar|
       if ar!=nil
